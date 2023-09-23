@@ -1,6 +1,6 @@
-SELECT t1.login, count(t2.id)
+SELECT t1.login, count(*)
 FROM "Couriers" t1
-LEFT JOIN "Orders" t2 on t2."courierId" = t1.id
+JOIN "Orders" t2 on t2."courierId" = t1.id
 WHERE t2."inDelivery"=TRUE
 GROUP BY t1.login;
 

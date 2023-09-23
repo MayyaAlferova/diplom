@@ -1,4 +1,4 @@
-URL_SERVICE: str = "https://6f88a204-7e13-4bf6-ba9f-a739f470cd5a.serverhub.praktikum-services.ru"
+URL_SERVICE: str = "https://f188e54f-ced2-496e-8ea3-8db6c66572b5.serverhub.praktikum-services.ru"
 
 PATH_CREATE_COURIER: str = "/api/v1/courier"
 PATH_LOGIN_COURIER: str = "/api/v1/courier/login"
